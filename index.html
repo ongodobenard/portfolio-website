@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet"href="style.css">
+    <link rel="icon" type="image/x-icon" href="Images/LOGO1.png">
+    <meta name="viewpoort" content="width=device-width,initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b9c75a34e0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+       <div id="header">
+              <div class="container">
+                    <nav >
+                        <img src="Images/LOGO1.png" alt="logo" class="logo" >
+
+
+                             <ul id="sidemenu">
+                                 <li><a href="#header"onclick="closemenu()">Home</a></li>
+                                 <li><a href="#about"onclick="closemenu()">About</a></li>
+                                 <li><a href="#services"onclick="closemenu()">Service</a></li>
+                                 <li><a href="#portfolio"onclick="closemenu()">Portfolio</a></li>
+                                 <li><a href="#contact"onclick="closemenu()">Contact</a></li>
+                                 <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+
+                             </ul>
+                             <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+
+                    </nav>
+                       <div class="header-text">
+                        <P>Fullstack Web Developer & Network Admin.</P>
+                        <h1>Hi, I'm <span>Benard</span> <br> from Kenya.</h1>
+                      
+
+
+                       </div>
+
+
+              </div>
+             <div class="homelink">
+             <ul id="sidemenu">
+                <a href="#header"><i class="fa-solid fa-house" style="font-size: 20px;"></i></a>
+    
+
+            </ul>
+             </div>
+            
+            
+
+
+       </div>
+       <hr>
+<!--------About------->
+
+<div id="about">
+
+    <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+               <img src="Images/Prof pic.jpg" alt="">
+
+            </div>
+            <div class="about-col-2">
+               <h1 class="sub-title">About Me</h1>
+               <p>As a skilled Web Developer and Network Administrator, I bring a unique combination 
+                of technical 
+                expertise in both web development and network management. With a strong foundation in 
+                building dynamic, responsive websites 
+                and optimizing network infrastructure, I am committed to ensuring seamless 
+                online experiences and efficient network performance.</p>
+
+                <div class="tab-titles">
+
+                     <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                     <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                     <p class="tab-links"onclick="opentab('Education')">Education</p>
+
+
+                </div>
+
+            
+                <div class="tab-content active-tab" id="skills">
+                    <ul>
+                       <li><span>UI/UX</span><br>Designing Web/App Interfaces.<br>Web interface design
+                         is at the heart of creating intuitive, engaging, and user-friendly digital experiences.
+                          As a Web Interface Designer, I focus on translating complex ideas into clean, visually appealing, 
+                        and functional designs that enhance how users interact with websites and web applications.</li>
+
+                       <li><span>Web Development</span><br>Web App Development.<br>
+                        I specialize in creating user-friendly, visually appealing websites with a focus on
+                         functionality and performance. Proficient in HTML, CSS, JavaScript, and various front-end 
+                         frameworks like React, I ensure that websites are responsive and meet modern web standards. 
+                         I also have experience with back-end technologies such as Node.js, 
+                        and databases like MySQL, enabling me to create dynamic, database-driven applications.</li>
+
+                       <li><span>Network Admin</span><br>Administering Network infrastructures.<br>On the network side, 
+                        I have extensive experience in managing, configuring, and maintaining local area networks (LANs), 
+                        wide area networks (WANs), 
+                        and cloud-based infrastructures. I am skilled in ensuring the reliability, security, and scalability
+                        of networks, as well 
+                        as troubleshooting any issues that arise. My expertise includes configuring routers, firewalls, 
+                        VPNs, and managing network protocols to ensure optimal system performance and security.</li>
+                     
+                    </ul>
+
+                </div>
+                <div class="tab-content"id="Experience">
+                    <ul>
+                       <li><span>2023-Current</span><br>ICT Specialist at WaveTechSolutions Company .</li>
+                       <li><span>2022</span><br>wed developer and Network Admin Intern at Lake Basin Development Authority.</li>
+
+                    </ul>
+                </div>
+                <div class="tab-content"id="Education">
+                    <ul>
+                       <li><span>2019 - 2023</span><br>Masinde Muliro University Of science And Technology.<br><h3>Bachelors Degree in Information And 
+                        Communication Technology.
+                       </h3><br><p>Throughout my academic journey, I gained a solid foundation in various
+                         aspects of Information Technology, with a strong emphasis on both theoretical knowledge 
+                         and practical skills. My degree equipped me with the 
+                        ability to understand complex systems, analyze problems, and apply technological solutions 
+                        across diverse areas. Key areas of study included:</p>
+                    
+                      <ul style="list-style: armenian;">
+
+                          <li><span>Web Development: </span><br>
+                            Learning to write efficient code in languages such as Java,Html,Css and Javascript and and frameworks such as React while developing 
+                            a deep understanding of algorithms and data structures.
+                        
+                        </li>
+
+                             <li><span>Database Management:</span><br>
+                                Gaining hands-on experience in designing, implementing, and maintaining databases using tools 
+                                such as MySQL and Microsoft SQL Server.
+                            </li>
+
+
+
+                            <li><span>Networking & Cybersecurity: </span><br>
+                            
+                                Acquiring knowledge of network protocols, security practices, and the tools necessary to 
+                                protect digital assets and ensure secure communication.
+                            
+                            </li><br>
+
+
+                            <p>
+
+                                This educational foundation not only provided me with a diverse set of technical skills but also honed
+                                 my ability to think critically, adapt to new technologies, and apply my knowledge in real-world scenarios.
+
+                            </p>
+
+                      </ul>
+                    
+                    
+                    
+                    </li>
+                     
+                     
+                     
+                    </ul>
+
+            </div>
+
+
+
+
+
+          </div>
+
+
+
+
+    </div>
+
+
+</div><hr>
+
+<!---------------Services--------------->
+
+<div id="services">
+
+ <div class="container">
+
+    <h1 class="sub-title">My Services</h1><hr>
+
+       <div class="service-list">
+
+           <div>
+            <i class="fa-solid fa-code"></i>
+               <h2> Web Development: </h2>
+             
+               <p>Creating custom website layouts, graphics, and user interfaces<br> (UI) with a focus on aesthetics and usability.</p>
+                 <br><br>
+                <a href="#">Learn More</a>
+
+           </div>
+
+
+         <div>
+            <i class="fa-solid fa-server"></i>
+            <h2>Network Admin.</h2>
+            <p>I offer a wide range of Network services to ensure that an organization’s<br> IT network is secure, reliable, and efficiently managed.</p>    <br><br>
+              <a href="#">Learn More</a>
+       </div>
+       <div>
+        <i class="fa-solid fa-database"></i>
+        <h2>Database Admin</h2><p> I am responsible for managing and maintaining an organization’s databases to ensure they are secure, accessible, 
+            and perform optimally. </p>    <br><br>
+          <a href="#">Learn More</a>
+   </div>
+
+ </div>
+
+
+
+
+</div><br><br><hr>
+
+<!----------PORTFOLIO---------->
+   <div id="portfolio">
+
+       <div class="container">
+            
+
+        <h1 class="sub-title">My Work</h1>
+         <div class="Work-list">
+               <div class="work">
+                  <img  src="Images/Web Development.jpg" alt="">
+                  <div class="layer">
+                   <h3>Ecommerce Website & Portfolio Development</h3><br>
+                   <p>Ecommerce website is designed to support the entire process of buying <br>and selling products or services online.</p><br>
+                  
+                     <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i> </a>
+                     <P style="color: rgb(86, 224, 27);padding-top: 3px;"><u>Link to be updated soon</u></P> 
+                    
+
+                  </div>
+
+               </div>
+               <div class="work">
+                <img  src="Images/Database Admin.jpg" alt="">
+
+                <div class="layer">
+             <h3>Database Admin</h3><br>
+                <p>My role involves ensuring that databases are efficient, reliable,<br> and 
+                    secure, and that data is accessible<br> when needed. </p><br>
+                    <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                   <P style="color: rgb(86, 224, 27);"><u>Link to be updated soon</u></P> 
+                    
+              </div>
+             </div>
+             <div class="work">
+                <img  src="Images/Network Admin.jpg" alt="">
+
+                <div class="layer">
+                    <h3>Network Admin</h3><br>
+                       <p>I am  responsible for managing, maintaining, and troubleshooting an <Br>organization’s network infrastructure, 
+                        ensuring<br> that data communication systems (e.g., internet, intranet, LAN, WAN, and VPN) <br>function efficiently,
+                         securely, and reliably. </p><br>
+                           <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                           <P style="color: rgb(86, 224, 27);"><u>Link to be updated soon</u></P> 
+                         
+                     </div>
+
+
+
+
+
+             </div>
+
+         </div>
+
+         <a href="#" class="btn">See more</a>
+
+       </div>
+
+
+   </div>
+   <!-------------------CONTACT------------------->
+   <div id="contact">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="contact-left">
+                     
+                  <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i> ongodobenard@gmail.com.</p>
+                    <p><i class="fa-solid fa-phone-volume"></i> +254796038686.</p>
+                    <div class="social-icons">
+
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+                    </div>
+                    <a href="Images/My Curriculum Vitae.pdf"Download class="btn btn2">Download Cv</a>
+                   
+                </div>
+                <div class="contact-right">
+
+                <form name="submit-to-google-sheet">
+                     <input type="text" name="Name"placeholder="Your Name"required>
+                     <input type="email"name="Email" placeholder="Your Email" required>
+                     <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                     <button type="submit " class="btn btn2">Submit</button>
+
+
+
+
+                </form>
+
+                <span id="msg"></span>
+
+
+                </div>
+            </div>
+
+
+        </div>
+
+          <div class="copyright">
+
+            <p>Copyright © Kevin,Made with<i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+          </div>
+   </div>
+   <!---------------script-------------->
+
+<script>
+      var tablinks=document.getElementsByClassName("tab-links ");
+      var tabcontents=document.getElementsByClassName("tab-content");
+
+      function opentab(tabname){
+
+           for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+
+           }
+           for(tabconten of tabcontents){
+                tabconten.classList.remove("active-tab");
+
+           }
+           event.currentTarget.classList.add("active-link")
+           document.getElementById(tabname).classList.add("active-tab")
+
+          }
+
+
+</script>
+<!------------closingmenu-------->
+<script>
+    var sidemenu= document.getElementById("sidemenu");
+    function openmenu(){
+
+         sidemenu.style.right="0";
+    }
+    function closemenu(){
+
+     sidemenu.style.right="-200px";
+}
+
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyvwraMH-bniyp3FN-a_mugj2Ch5UPX0VG6Sh47H_ZMx8geiAHcxtzCoNSBCHAUPDOs/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML ="Message sent succesfully"
+            setTimeout(function()
+        {msg.innerHTML=""},5000 ) 
+        form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
